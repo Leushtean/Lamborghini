@@ -34,9 +34,16 @@ body {
 .footer {
 	flex: 0 0 auto;
 }
+
+.lg-container{
+	max-width: 1220px;
+	padding: 0 10px;
+	margin: 0 auto;
+	width: 100%;
+}
   
 .container {
-	max-width: 1220px;
+	max-width: 905px;
 	padding: 0 10px;
 	margin: 0 auto;
 	width: 100%;
@@ -104,3 +111,12 @@ button {
 .title{
 	text-transform: uppercase;
 } 
+.info__text{
+	line-height: 120%;
+}
+.h3{
+	text-transform: uppercase;
+	font-size: 32px;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
